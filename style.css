@@ -1,3 +1,15 @@
 * {
     background-color: lightblue;
-} 
+}
+
+.header {
+    background-color: aqua;
+}
+
+.sidebar {
+    background-color: beige;
+}
+
+.main_content {
+    background-color: lightsalmon;
+}
