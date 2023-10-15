@@ -8,153 +8,196 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="top">
-            <div class="searchbar">
-                <span class="material-symbols-outlined">search</span>
-                <input type="search" name="search" id="search_bar">
+    <div class="container">
+        <!-- Sidebar -->
+        <section class="sidebar">
+            <div class="logo">
+                <span class="material-symbols-outlined">dashboard</span>
+                <span>Dashboard</span>
             </div>
-            <div class="notifications">
-                <span class="material-symbols-outlined">
-                    notifications_active</span>
-            </div>
-            <div class="user_profile">
-                <img src="avatar.png" alt="" srcset="" width="20px">
-                <span class="username">Rosa López</span>
-            </div>
-        </div>
-        <div class="bottom">
-            <div class="user_greeting">
-                <img src="avatar.png" alt="" srcset="" width="40px">
-                <span>Hi there,</span>
-                <span>Rosa Lopez @xennia</span>
-            </div>
-            <div class="action_buttons">
-                <button class="header_buttons">New</button>
-                <button class="header_buttons">Upload</button>
-                <button class="header_buttons">Share</button>
-            </div>
-        </div>
-    </header>
-    <!-- Sidebar -->
-    <section class="sidebar">
-        <div class="logo">Dashboard</div>
-        <ul class="sidebar_ul">
-            <li class="sidebar_li">Home</li>
-            <li class="sidebar_li">Profile</li>
-            <li class="sidebar_li">Messages</li>
-            <li class="sidebar_li">History</li>
-            <li class="sidebar_li">Tasks</li>
-            <li class="sidebar_li">Communities</li>
-            <li class="sidebar_li">Settings</li>
-            <li class="sidebar_li">Support</li>
-            <li class="sidebar_li">Privacy</li>
-        </ul>
-    </section>
-    <!-- Main content -->
-    <main class="main_content">
-        <div class="projects">
-            <h1>Your projects</h1>
-            <div class="project_card">
-                <h3 class="project_card_head">Nuestra misión</h3>
-                <div class="project_card_body">En [Nombre de la Compañía], nuestra misión es proporcionar soluciones innovadoras y de alta calidad para satisfacer las necesidades de nuestros clientes. Nos esforzamos por ser líderes en la industria, brindando productos y servicios excepcionales que impulsan el éxito de nuestros clientes.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-            <div class="project_card">
-                <h3 class="project_card_head">Nuestros Productos</h3>
-                <div class="project_card_body">Descubre nuestra amplia gama de productos de primera calidad. Desde tecnología de vanguardia hasta productos artesanales, ofrecemos una variedad que satisface a todos. Nuestra colección se actualiza constantemente para mantenerte al día con las últimas tendencias y tecnologías.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-            <div class="project_card">
-                <h3 class="project_card_head">Equipo de Expertos</h3>
-                <div class="project_card_body">En [Nombre de la Compañía], contamos con un equipo de expertos apasionados y comprometidos en brindar el mejor servicio a nuestros clientes. Nuestros profesionales altamente calificados tienen la experiencia y el conocimiento para abordar cualquier desafío.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-            <div class="project_card">
-                <h3 class="project_card_head">Historia de la Empresa</h3>
-                <div class="project_card_body">Desde nuestros humildes comienzos en [Año de Fundación], hemos crecido para convertirnos en una empresa líder en la industria. Con una rica historia de innovación y excelencia, seguimos creciendo y evolucionando.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-            <div class="project_card">
-                <h3 class="project_card_head">Responsabilidad Social</h3>
-                <div class="project_card_body">En [Nombre de la Compañía], nos tomamos en serio la responsabilidad social. Estamos comprometidos con iniciativas de sostenibilidad y apoyamos activamente a comunidades locales a través de programas de responsabilidad social empresarial.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-            <div class="project_card">
-                <h3 class="project_card_head">Contáctanos</h3>
-                <div class="project_card_body">¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte. Contáctanos para obtener más información sobre nuestros productos y servicios. Estamos ansiosos por escuchar de ti y colaborar en tu éxito.</div>
-                <div class="project_card_icons">
-                    <span class="material-symbols-outlined">heart_plus</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
-                </div>
-            </div>
-        </div>
-        <div class="announcements">
-            <h1>Announcements</h1>
-            <ul class="announcements_ul">
-                <il class="announcements_element">
-                    <h3>¡Gran Oferta de Verano!</h3>
-                    <span>¡20% de descuento en todos los productos durante julio!</span>
-                </il>
-                <il class="announcements_element">
-                    <h3>¡Nueva Colección Ahora Disponible!</h3>
-                <span>Explora las últimas tendencias en moda y hogar.</span>
-            </il>
-                <il class="announcements_element">
-                    <h3>¡Regístrate para Nuestro Boletín Informativo!</h3>
-                <span>Recibe noticias y ofertas exclusivas en tu bandeja de entrada. ¡Regístrate hoy!</span>
-            </il>
+            <ul class="sidebar_ul">
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">home</span>
+                    <span>Home</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">person</span>
+                    <span>Profile</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">chat_bubble</span>
+                    <span>Messages</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">history</span>
+                    <span>History</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">task</span>
+                    <span>Tasks</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">diversity_3</span>
+                    <span>Communities</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span>Settings</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">help</span>
+                    <span>Support</span>
+                </li>
+                <li class="sidebar_li">
+                    <span class="material-symbols-outlined">verified_user</span>
+                    <span>Privacy</span>
+                </li>
             </ul>
-        </div>
-        <div class="trending">
-            <h1>Trending</h1>
-            <div class="trending_list">
-                <ul class="trending_ul">
-                    <li class="trending_element">
-                        <img src="avatar.png" alt="" srcset="" width="20px">
-                        <span class="username">@UsuarioEjemplo1</span>
-                        <span class="full_name">Juan Pérez</span>
-                    </li>
-                    <li class="trending_element">
-                        <img src="avatar.png" alt="" srcset="" width="20px">
-                        <span class="username">@UsuarioEjemplo2</span>
-                        <span class="full_name">Laura Martínez</span>
-                    </li>
-                    <li class="trending_element">
-                        <img src="avatar.png" alt="" srcset="" width="20px">
-                        <span class="username">@UsuarioEjemplo3</span>
-                        <span class="full_name">Carlos Rodríguez</span>
-                    </li>
-                    <li class="trending_element">
-                        <img src="avatar.png" alt="" srcset="" width="20px">
-                        <span class="username">@UsuarioEjemplo4</span>
-                        <span class="full_name">María Sánchez</span>
-                    </li>
-                </ul>
+        </section>
+        <!-- Header -->
+        <header class="header">
+            <div class="top">
+                <div class="search_bar">
+                    <span class="material-symbols-outlined id="search_icon">search</span>
+                    <input type="search" name="search" id="search_bar">
+                </div>
+                <div class="header_right_side">
+                    <div class="notifications">
+                        <span class="material-symbols-outlined">notifications_active</span>
+                    </div>
+                    <div class="user_profile">
+                        <img src="avatar.png" alt="" srcset="" width="40px">
+                        <span class="username">Rosa López</span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </main>
+            <div class="bottom">
+                <div class="user_greeting">
+                    <img src="avatar.png" alt="" srcset="" width="50px" height="50px">
+                    <div class="greeting_message">
+                        <div class="hi_there">Hi there,</div>
+                        <div class="greeting_message_name">Rosa Lopez (@xennia)</div>
+                    </div>
+                </div>
+                <div class="action_buttons">
+                    <button class="header_buttons">New</button>
+                    <button class="header_buttons">Upload</button>
+                    <button class="header_buttons">Share</button>
+                </div>
+            </div>
+        </header>
+        <!-- Main content -->
+        <main class="main_content">
+            <div class="projects">
+                <div class="projects_header">Your projects</div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Nuestra misión</h3>
+                    <div class="project_card_body">En [Nombre de la Compañía], nuestra misión es proporcionar soluciones innovadoras y de alta calidad para satisfacer las necesidades de nuestros clientes. Nos esforzamos por ser líderes en la industria, brindando productos y servicios excepcionales que impulsan el éxito de nuestros clientes.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Nuestros Productos</h3>
+                    <div class="project_card_body">Descubre nuestra amplia gama de productos de primera calidad. Desde tecnología de vanguardia hasta productos artesanales, ofrecemos una variedad que satisface a todos. Nuestra colección se actualiza constantemente para mantenerte al día con las últimas tendencias y tecnologías.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Equipo de Expertos</h3>
+                    <div class="project_card_body">En [Nombre de la Compañía], contamos con un equipo de expertos apasionados y comprometidos en brindar el mejor servicio a nuestros clientes. Nuestros profesionales altamente calificados tienen la experiencia y el conocimiento para abordar cualquier desafío.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Historia de la Empresa</h3>
+                    <div class="project_card_body">Desde nuestros humildes comienzos en [Año de Fundación], hemos crecido para convertirnos en una empresa líder en la industria. Con una rica historia de innovación y excelencia, seguimos creciendo y evolucionando.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Responsabilidad Social</h3>
+                    <div class="project_card_body">En [Nombre de la Compañía], nos tomamos en serio la responsabilidad social. Estamos comprometidos con iniciativas de sostenibilidad y apoyamos activamente a comunidades locales a través de programas de responsabilidad social empresarial.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <h3 class="project_card_head">Contáctanos</h3>
+                    <div class="project_card_body">¿Tienes alguna pregunta o comentario? Estamos aquí para ayudarte. Contáctanos para obtener más información sobre nuestros productos y servicios. Estamos ansiosos por escuchar de ti y colaborar en tu éxito.</div>
+                    <div class="project_card_icons">
+                        <span class="material-symbols-outlined">heart_plus</span>
+                        <span class="material-symbols-outlined">visibility</span>
+                        <span class="material-symbols-outlined">share</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Announcements -->
+
+            <div class="announcements">
+                <div class="announcements_header">Announcements</div>
+                <div class="announcements_list">
+                    <ul class="announcements_ul">
+                        <il class="announcements_element">
+                            <h3>¡Gran Oferta de Verano!</h3>
+                            <span>¡20% de descuento en todos los productos durante julio!</span>
+                        </il>
+                        <il class="announcements_element">
+                            <h3>¡Nueva Colección Ahora Disponible!</h3>
+                        <span>Explora las últimas tendencias en moda y hogar.</span>
+                    </il>
+                        <il class="announcements_element">
+                            <h3>¡Regístrate para Nuestro Boletín Informativo!</h3>
+                        <span>Recibe noticias y ofertas exclusivas en tu bandeja de entrada. ¡Regístrate hoy!</span>
+                    </il>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Trending -->
+
+            <div class="trending">
+                <div class="trending_header">Trending</div>
+                <div class="trending_list">
+                    <ul class="trending_ul">
+                        <li class="trending_element">
+                            <img src="avatar.png" alt="" srcset="" width="20px">
+                            <span class="username">@UsuarioEjemplo1</span>
+                            <span class="full_name">Juan Pérez</span>
+                        </li>
+                        <li class="trending_element">
+                            <img src="avatar.png" alt="" srcset="" width="20px">
+                            <span class="username">@UsuarioEjemplo2</span>
+                            <span class="full_name">Laura Martínez</span>
+                        </li>
+                        <li class="trending_element">
+                            <img src="avatar.png" alt="" srcset="" width="20px">
+                            <span class="username">@UsuarioEjemplo3</span>
+                            <span class="full_name">Carlos Rodríguez</span>
+                        </li>
+                        <li class="trending_element">
+                            <img src="avatar.png" alt="" srcset="" width="20px">
+                            <span class="username">@UsuarioEjemplo4</span>
+                            <span class="full_name">María Sánchez</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
